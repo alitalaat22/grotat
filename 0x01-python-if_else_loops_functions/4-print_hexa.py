@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for hext in range(0, 99):
-    print("{:d} = 0x{:x}" .format(hext, hext))
+for num in range(0, 100):
+	print("{:d}" .format(num).zfill(2), end=', ')
+	if num == 99:
+		print("{:d}".format(num), end='\n')
