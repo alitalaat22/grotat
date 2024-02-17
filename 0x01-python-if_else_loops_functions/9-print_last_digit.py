@@ -3,6 +3,7 @@ def print_last_digit(number):
 	if number > 0:
 		las = number %10
 		print("{:}".format(las), end='')
+		return las
 	elif number < 0:
 		las = number % -10
 		print("{:}".format(las * -1), end='')
